@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/project001dev/devfront/static/css/main.329633fa.chunk.css",
+    "main.js": "/project001dev/devfront/static/js/main.2eece56a.chunk.js",
+    "main.js.map": "/project001dev/devfront/static/js/main.2eece56a.chunk.js.map",
+    "runtime-main.js": "/project001dev/devfront/static/js/runtime-main.7d5b83f8.js",
+    "runtime-main.js.map": "/project001dev/devfront/static/js/runtime-main.7d5b83f8.js.map",
+    "static/js/2.e77bfcf2.chunk.js": "/project001dev/devfront/static/js/2.e77bfcf2.chunk.js",
+    "static/js/2.e77bfcf2.chunk.js.map": "/project001dev/devfront/static/js/2.e77bfcf2.chunk.js.map",
+    "index.html": "/project001dev/devfront/index.html",
+    "precache-manifest.5f1d327620968ff0f1a9fdc0958e52de.js": "/project001dev/devfront/precache-manifest.5f1d327620968ff0f1a9fdc0958e52de.js",
+    "service-worker.js": "/project001dev/devfront/service-worker.js",
+    "static/css/main.329633fa.chunk.css.map": "/project001dev/devfront/static/css/main.329633fa.chunk.css.map",
+    "static/js/2.e77bfcf2.chunk.js.LICENSE.txt": "/project001dev/devfront/static/js/2.e77bfcf2.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/project001dev/devfront/static/media/avatar.4f9f8729.png",
+    "static/media/styles.css": "/project001dev/devfront/static/media/logotipo.decedce9.svg",
+    "static/media/globalStyles.css": "/project001dev/devfront/static/media/geometric-1732847_1920.bf46290a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d5b83f8.js",
+    "static/js/2.e77bfcf2.chunk.js",
+    "static/css/main.329633fa.chunk.css",
+    "static/js/main.2eece56a.chunk.js"
+  ]
+}
