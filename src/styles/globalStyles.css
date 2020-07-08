@@ -9,4 +9,18 @@
 html, body, #root {
   height: 100%;
   width: 100%;
+  background-image: url('../assets/geometric-1732847_1920.jpg');
+  /* background: rgb(0,188,230);
+  background: -moz-linear-gradient(90deg, rgba(0,188,230,1) 55%, rgba(0,212,255,1) 62%, rgba(1,159,200,1) 75%);
+  background: -webkit-linear-gradient(90deg, rgba(0,188,230,1) 55%, rgba(0,212,255,1) 62%, rgba(1,159,200,1) 75%);
+  background: linear-gradient(90deg, rgba(0,188,230,1) 55%, rgba(0,212,255,1) 62%, rgba(1,159,200,1) 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00bce6",endColorstr="#019fc8",GradientType=1); */
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }

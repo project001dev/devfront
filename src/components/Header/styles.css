@@ -2,31 +2,37 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
   color: #FFF;
   padding-top: 4vh;
   padding-bottom: 2vh;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(50, 50, 50, 0.75);
+  /* -webkit-box-shadow: 10px 10px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(50, 50, 50, 0.75); */
+
+
+  /* -webkit-box-shadow: 4px 4px 75px -13px rgba(44,53,158,1);
+  -moz-box-shadow: 4px 4px 75px -13px rgba(44,53,158,1);
+  box-shadow: 4px 4px 75px -13px rgba(44,53,158,1); */
   /* background-image: linear-gradient(to top, #0e3a63 0%, #0c3d8b 100%); */
 
 }
 
-nav {
+
+nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1.5pc;
 }
 
-nav a {
-  margin-right: 4vw;
+nav ul li {
+  margin-right: 3vw;
   color: #FFF;
   /* font-size: 15pt; */
 }
 
-a:hover {
+nav ul li:hover {
   color: rgb(65, 189, 178);
 }
 
@@ -62,11 +68,44 @@ header h1 {
   background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
 }
 
-@media screen and (min-width: 0px) and (max-width: 600px) {
+
+@media screen and (min-width: 0px) and (max-width: 310px) {
   header {
     display: flex;
     flex-direction: column;
-    margin: 0px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #search input {
+    width: 250px;
+    border-radius: 8px;
+  }
+  
+  #search  button {
+    width: 80px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+
+
+
+}
+
+@media screen and (min-width: 310px) and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
     transition: 4ms;
     box-shadow: none;
     padding: 0;
@@ -78,14 +117,18 @@ header h1 {
   }
 
   #search input {
-    width: 150px;
+    width: 200px;
   }
 
   #search button {
-    /* width: 10px; */
+    width: 50px;
   }  
 
-  header nav {
+  #search button p {
+    font-size: 7px;
+    font-weight: bold;
+  }
+  header nav ul {
     display: flex;
     margin-top: 3vh; 
     transition: 4ms;
@@ -99,14 +142,15 @@ header h1 {
     left: 0;
   }
 
-  nav a {
-    /* font-size: 10pt; */
+  nav ul li {
+    font-size: 15pt;
     margin-bottom: 20px;
+    margin-right: 0;
   }
 
 } 
 
-@media screen and (min-width: 720px) and (max-width: 800px) {
+@media screen and (min-width: 600px) and (max-width: 800px) {
   header {
     display: flex;
     flex-direction: column;
@@ -115,28 +159,43 @@ header h1 {
   header h1 {
     position: absolute;
     left: 2px;
-    top: 10px
+    top: 13px
   }
 
-  nav {
+  nav ul {
     display: flex;
+    margin-left: 60px;
   }
 
-  nav a {
-    margin-right: 60px;
+  nav ul li {
+    margin-right: 30px;
+    font-size: 17pt;
+    padding: 0px;
+    font-weight: bold;
+  }
+
+  #search input {
+    width: 300px;
   }
 }
 
 
 @media screen and (min-width: 800px) and (max-width: 1000px) {
-  header {
-  }
+
   header h1 {
-    font-size: 24pt;
+    position: absolute;
+    font-size: 20pt;
+    left: 10px;
+    top: 10px;
+    margin: 0;
   }
-  nav a  {
-  margin-right: 6px;
-  font-size: 20pt;
+
+  nav {
+    margin-left: 30px;
+  }
+  nav ul li {
+  margin-right: 30px;
+  font-size: 17pt;
   padding: 0;
   }
 
@@ -144,37 +203,76 @@ header h1 {
     display: flex;
   }
   #search button {
-    width: 80px;
+    width: 40px;
   } 
   #search input {
-    width: 250px;
+    width: 240px;
     padding: 0;
   } 
 }
 
 
 @media screen and (min-width: 1000px) and (max-width: 1920px) {
-  nav a {
-    font-size: 20pt;
+
+  nav ul {
+    /* margin-left: 200px; */
+  }
+  nav ul li {
+    font-size: 17pt;
+    padding: none;
+    margin-right: 20px;
   }
 
   #search input {
-    width: 230px;
+    width: 220px;
+  }
+
+  #search button {
+    width: 72px;
   }
 }
 
 
 @media screen and (min-width: 1920px) and (max-width: 2440px) {
-  nav a {
-    font-size: 27px;
+  nav ul li {
+    font-size: 20pt
   }
   #search input {
-    width: 240px;
+    width: 220px;
   }
 
 }
 
+.sub-menu {
+  /* display: flex; */
+  flex-direction: column;
+  position: absolute;
+  /* top: 10px; */
+  display: none;
 
+}
+
+nav ul li ul li {
+  padding: 10px;
+  width: 100%;
+} 
+
+nav ul li ul li:hover {
+  background-color: rgb(7, 29, 126);
+}
+
+nav ul li:hover  ul {
+  background-color: rgb(31, 80, 170);
+  display: flex;
+  width: 143px;
+}
+
+
+.sub-menu li {
+  font-size: 10pt;
+  width: 100%;
+
+}
 
 @media screen and (min-width: 2440px) and (max-width: 2560px) {
   header {
@@ -188,9 +286,10 @@ header h1 {
   }
 
   #search button {
-    padding: 20px;
+    /* padding: 20px; */
+    width: 300px;
   }
-  nav a {
+  nav ul li {
     font-size: 40pt;
   }
 }
