@@ -36,9 +36,19 @@ nav ul li:hover {
   color: rgb(65, 189, 178);
 }
 
-header h1 {
+header img {
   margin-left: 4vw;
 } 
+
+#se {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/search.svg');
+  background-repeat: no-repeat;
+  padding: 0;
+  top: 0;
+}
 
 #search {
   margin-right: 4vw;
@@ -81,6 +91,10 @@ header h1 {
     position: relative;
   }
 
+  nav ul li {
+    margin-bottom: 10px;
+  }
+
   #search {
     display: flex;
     align-items: center;
@@ -88,12 +102,12 @@ header h1 {
   }
 
   #search input {
-    width: 250px;
+    width: 200px;
     border-radius: 8px;
   }
   
   #search  button {
-    width: 80px;
+    width: 50px;
     margin-top: 20px;
     border-radius: 8px;
   }
@@ -124,9 +138,9 @@ header h1 {
     width: 50px;
   }  
 
-  #search button p {
-    font-size: 7px;
-    font-weight: bold;
+  #logo {
+    position: absolute;
+    margin: 0 auto;
   }
   header nav ul {
     display: flex;
@@ -136,11 +150,11 @@ header h1 {
     margin-top: 80px;
   }
 
-  header h1 {
+  /* #header-i img {
     position: absolute;
     margin-top: 10px;
-    left: 0;
-  }
+    left: 100px;
+  } */
 
   nav ul li {
     font-size: 15pt;
@@ -156,10 +170,8 @@ header h1 {
     flex-direction: column;
   }
 
-  header h1 {
-    position: absolute;
-    left: 2px;
-    top: 13px
+  #logo {
+    margin: -30px auto;
   }
 
   nav ul {
@@ -174,6 +186,11 @@ header h1 {
     font-weight: bold;
   }
 
+
+  #search {
+    display: flex;
+  }
+
   #search input {
     width: 300px;
   }
@@ -182,11 +199,11 @@ header h1 {
 
 @media screen and (min-width: 800px) and (max-width: 1000px) {
 
-  header h1 {
+  header img {
     position: absolute;
     font-size: 20pt;
-    left: 10px;
-    top: 10px;
+    left: 15px;
+    top: 8px;
     margin: 0;
   }
 
@@ -195,7 +212,7 @@ header h1 {
   }
   nav ul li {
   margin-right: 30px;
-  font-size: 17pt;
+  font-size: 20pt;
   padding: 0;
   }
 
@@ -206,16 +223,17 @@ header h1 {
     width: 40px;
   } 
   #search input {
-    width: 240px;
+    width: 300px;
     padding: 0;
   } 
 }
 
 
+
 @media screen and (min-width: 1000px) and (max-width: 1920px) {
 
   nav ul {
-    /* margin-left: 200px; */
+    margin-left: 20px;
   }
   nav ul li {
     font-size: 17pt;
@@ -223,12 +241,16 @@ header h1 {
     margin-right: 20px;
   }
 
+  #search {
+    display: flex;
+  }
+
   #search input {
     width: 220px;
   }
 
   #search button {
-    width: 72px;
+    width: 40px;
   }
 }
 
@@ -237,6 +259,11 @@ header h1 {
   nav ul li {
     font-size: 20pt
   }
+
+  #search {
+    display: flex;
+  }
+
   #search input {
     width: 220px;
   }
@@ -274,12 +301,17 @@ nav ul li:hover  ul {
 
 }
 
-@media screen and (min-width: 2440px) and (max-width: 2560px) {
+@media screen and (min-width: 2440px) and (max-width: 2685px) {
   header {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
+  #search {
+    display: flex;
+  }
+
   #search input {
     width: 900px;
     padding: 20px;
@@ -287,7 +319,7 @@ nav ul li:hover  ul {
 
   #search button {
     /* padding: 20px; */
-    width: 300px;
+    width: 50px;
   }
   nav ul li {
     font-size: 40pt;

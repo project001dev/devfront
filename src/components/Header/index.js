@@ -2,12 +2,15 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
+import logo from '../../assets/logo.png'
+import search from '../../assets/search.svg'
+
 import './styles.css'
 
 const index = () => {
   return (
     <header id='header-i'>
-      <h1>Logo</h1>
+      <img src={logo} id='logo'/>
       <nav>
         <ul>
           <li><Link to='/'>Início</Link></li>
@@ -25,7 +28,7 @@ const index = () => {
 
       <div id="search">
         <input type="text"/>
-        <button><p>Pesquisar</p></button>
+        <button><p id='se'></p></button>
       </div>
     </header>
   )

@@ -17,11 +17,7 @@ const Inicio = () => (
             Esse site foi criado para trazer tutorias de html a banco de dados.
             Compartilho você algumas solução de forma clara e objetiva.
           </h2>
-          <h2>  
-            Se o esse site ti ajudou considere doar algum valor para ajudar
-            a manter o projeto e trazer melhorias, segue o botão de doaçao
-            abaixo via paypal.
-          </h2>
+          
         </div>
 
       </div>
