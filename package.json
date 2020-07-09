@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://github.com/project001dev/devfront",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,5 +36,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/project001dev/devfront"
+  
 }
