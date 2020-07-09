@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/devfront/static/css/main.eda764a7.chunk.css",
-    "main.js": "/devfront/static/js/main.85b2a3c5.chunk.js",
-    "main.js.map": "/devfront/static/js/main.85b2a3c5.chunk.js.map",
-    "runtime-main.js": "/devfront/static/js/runtime-main.57676331.js",
-    "runtime-main.js.map": "/devfront/static/js/runtime-main.57676331.js.map",
-    "static/js/2.e77bfcf2.chunk.js": "/devfront/static/js/2.e77bfcf2.chunk.js",
-    "static/js/2.e77bfcf2.chunk.js.map": "/devfront/static/js/2.e77bfcf2.chunk.js.map",
-    "index.html": "/devfront/index.html",
-    "precache-manifest.2f96b6b317aabd48b77924224d61d165.js": "/devfront/precache-manifest.2f96b6b317aabd48b77924224d61d165.js",
-    "service-worker.js": "/devfront/service-worker.js",
-    "static/css/main.eda764a7.chunk.css.map": "/devfront/static/css/main.eda764a7.chunk.css.map",
-    "static/js/2.e77bfcf2.chunk.js.LICENSE.txt": "/devfront/static/js/2.e77bfcf2.chunk.js.LICENSE.txt",
-    "static/media/avatar.png": "/devfront/static/media/avatar.4f9f8729.png",
-    "static/media/styles.css": "/devfront/static/media/logotipo.decedce9.svg",
-    "static/media/globalStyles.css": "/devfront/static/media/geometric-1732847_1920.bf46290a.jpg"
+    "main.css": "/project001dev/devfront/static/css/main.54e98971.chunk.css",
+    "main.js": "/project001dev/devfront/static/js/main.e0c4a96e.chunk.js",
+    "main.js.map": "/project001dev/devfront/static/js/main.e0c4a96e.chunk.js.map",
+    "runtime-main.js": "/project001dev/devfront/static/js/runtime-main.7d5b83f8.js",
+    "runtime-main.js.map": "/project001dev/devfront/static/js/runtime-main.7d5b83f8.js.map",
+    "static/js/2.fb0a4abf.chunk.js": "/project001dev/devfront/static/js/2.fb0a4abf.chunk.js",
+    "static/js/2.fb0a4abf.chunk.js.map": "/project001dev/devfront/static/js/2.fb0a4abf.chunk.js.map",
+    "index.html": "/project001dev/devfront/index.html",
+    "precache-manifest.9100753342bc4cddfbe9bffd8aed3197.js": "/project001dev/devfront/precache-manifest.9100753342bc4cddfbe9bffd8aed3197.js",
+    "service-worker.js": "/project001dev/devfront/service-worker.js",
+    "static/css/main.54e98971.chunk.css.map": "/project001dev/devfront/static/css/main.54e98971.chunk.css.map",
+    "static/js/2.fb0a4abf.chunk.js.LICENSE.txt": "/project001dev/devfront/static/js/2.fb0a4abf.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/project001dev/devfront/static/media/avatar.4f9f8729.png",
+    "static/media/styles.css": "/project001dev/devfront/static/media/search.c4b59f7e.svg",
+    "static/media/globalStyles.css": "/project001dev/devfront/static/media/geometric-1732847_1920.bf46290a.jpg",
+    "static/media/logo.png": "/project001dev/devfront/static/media/logo.ac61b407.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.57676331.js",
-    "static/js/2.e77bfcf2.chunk.js",
-    "static/css/main.eda764a7.chunk.css",
-    "static/js/main.85b2a3c5.chunk.js"
+    "static/js/runtime-main.7d5b83f8.js",
+    "static/js/2.fb0a4abf.chunk.js",
+    "static/css/main.54e98971.chunk.css",
+    "static/js/main.e0c4a96e.chunk.js"
   ]
 }
