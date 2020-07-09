@@ -9,8 +9,7 @@ const routes = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exec path='/' component={Inicio} />
-        <Route exec path='github' component='https://github.com/EdsonMello-code/Project-reactJS-and-express/blob/master/huntweb/src/routes.js' />
+        <Route exec path='/devfront' component={Inicio} />
 
       </Switch>
     </BrowserRouter>
